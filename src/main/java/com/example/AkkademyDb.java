@@ -1,4 +1,4 @@
-package com.example.actors;
+package com.example;
 
 import akka.actor.AbstractActor;
 import akka.event.Logging;
