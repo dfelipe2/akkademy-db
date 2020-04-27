@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {}
+
+mainClassName = "com.example.AkkaQuickstart"
+
+run {
+  standardInput = System.in
+}
