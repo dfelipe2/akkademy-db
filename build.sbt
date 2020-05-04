@@ -1,6 +1,6 @@
-name := "akka-quickstart-java"
-
-version := "1.0"
+name := "akkademy-db"
+organization := "com.akkademy-db"
+version := "0.0.1-SNAPSHOT"
 
 scalaVersion := "2.13.1"
 
