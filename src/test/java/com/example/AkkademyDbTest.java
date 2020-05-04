@@ -5,10 +5,12 @@ import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.testkit.TestActorRef;
 import com.example.messages.SetRequest;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class AkkademyDbTest {
     ActorSystem system = ActorSystem.create();
 

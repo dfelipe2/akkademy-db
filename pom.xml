@@ -2,9 +2,9 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hello-akka-java</groupId>
-    <artifactId>app</artifactId>
-    <version>1.0</version>
+    <groupId>com.akkademy-db</groupId>
+    <artifactId>akkademy-db</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
       <akka.version>2.6.4</akka.version>
@@ -38,6 +38,11 @@
             <groupId>org.scala-lang.modules</groupId>
             <artifactId>scala-java8-compat_2.11</artifactId>
             <version>0.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_2.11</artifactId>
+            <version>2.3.6</version>
         </dependency>
     </dependencies>
     <build>

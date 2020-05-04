@@ -3,6 +3,7 @@ package com.example;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import org.junit.Ignore;
 import org.junit.Test;
 import scala.concurrent.Future;
 
@@ -12,9 +13,9 @@ import java.util.concurrent.TimeUnit;
 
 import static akka.pattern.Patterns.ask;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 import static scala.compat.java8.FutureConverters.*;
 
+@Ignore
 public class PongActorAdvanceTest {
     ActorSystem system = ActorSystem.create();
     ActorRef actorRef = system.actorOf(Props.create(PongActor.class));
