@@ -1,4 +1,4 @@
-name := "akkademy-db"
+name := "akkademy-db-java"
 organization := "com.akkademy-db"
 version := "0.0.1-SNAPSHOT"
 
@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-remote" % "2.3.6"
 )
 
-mappings in (Compile, packageBin) ~= { _.filterNot { case (_, name) =>
-  Seq("application.conf").contains(name)
-}}
+//mappings in (Compile, packageBin) ~= { _.filterNot { case (_, name) =>
+//  Seq("application.conf").contains(name)
+//}}

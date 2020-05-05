@@ -3,6 +3,7 @@ package com.example;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import com.example.pong.PongActor;
 import org.junit.Ignore;
 import org.junit.Test;
 

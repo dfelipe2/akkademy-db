@@ -1,4 +1,4 @@
-package com.example;
+package com.example.pong;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
